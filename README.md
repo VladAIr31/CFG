@@ -13,7 +13,7 @@ The Python script `CFG.py` addresses the following tasks as outlined in the assi
 
 ## CFG Definition (Task 1)
 
-The implemented CFG is based on the example $G = (\{S\}, \{a, b\}, R, S)$, where $R = \{S \rightarrow aSb | \epsilon\}$. [cite: 17] This grammar generates strings of the form $a^n b^n$ where $n \ge 0$. 
+The implemented CFG is based on the example $G = (\{S\}, \{a, b\}, R, S)$, where $R = \{S \rightarrow aSb | \epsilon\}$.  This grammar generates strings of the form $a^n b^n$ where $n \ge 0$. 
 
 * **Non-Terminals (V)**: `{S}`
 * **Terminals ($\Sigma$)**: `{a, b}`
